@@ -7,6 +7,10 @@ angular.module('giv2givAngularApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/contribute', {
+        templateUrl: 'views/contribute.html',
+        controller: 'ContributeCtrl'
+      })
       .otherwise({
         redirectTo: '/endowment/foundation-name'
       });

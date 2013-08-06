@@ -2,6 +2,8 @@ $iconSpritePath: "../images/glyphicons-halflings.png";
 $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 @import "bootstrap-sass/lib/bootstrap";
+@import "bootstrap-sass/lib/responsive";
+
 
 /* Put your CSS here */
 html, body {
@@ -12,4 +14,30 @@ body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
+}
+
+.btn--lg-mobi {
+    font-size: 1.5em;
+    width: 100%;
+    padding: 15px;
+}
+
+.btn__contribute {
+    margin-top:50px;
+    margin-bottom:50px;
+    font-weight:bold;
+    border:0px;
+    border-radius:0px;
+    background-color:black;
+    background-image:none;
+    color:white;
+}
+.btn__contribute:hover {
+    margin-top:50px;
+    font-weight:bold;
+    border:0px;
+    border-radius:0px;
+    background-color:white;
+    background-image:none;
+    color:black;
 }
